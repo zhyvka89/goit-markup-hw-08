@@ -1,0 +1,31 @@
+.features {
+    @extend %section-pudding-mobile;
+}
+
+.features-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.features-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background: $secondary-background;
+}
+
+.features-item h3 {
+    @include text-size (700, 14px, 1.14, 00.03em);
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.features-item p {
+    @include text-size (400, 14px, 1.7, 00.03em);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $secondary-text-color;
+}

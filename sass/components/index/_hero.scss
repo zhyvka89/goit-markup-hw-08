@@ -1,0 +1,29 @@
+.page-hero {
+    margin: 0 auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background: $black-color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-title {
+    @include text-size (900, 26px, 1.6, 0.06em);
+    margin: 0;
+    color: $white-color;
+    text-transform: uppercase;
+}
+
+.hero-link {
+    @extend %button-style;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 32px;
+    border: none;
+    transition: background 250ms $timing-function;
+
+    &:hover {
+        background: $secondary-accent-color;
+    }
+}
