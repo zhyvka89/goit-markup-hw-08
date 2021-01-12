@@ -13,10 +13,24 @@
     border-radius: 0px 0px $border-radius $border-radius;
 }
 
-.team-item:not(:last-child) {
-    margin-bottom: 30px;
+@media screen and (max-width: 767px) {
+    .team-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
 }
-
+    
+@media screen and (min-width: 768px) {
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+    
+    .team-item {
+        width: calc((100% - 2 * 30px) / 2);
+        margin: 15px;
+    }
+}
 .team-name {
     text-align: center;
     padding-top: 30px;
