@@ -9,12 +9,21 @@
     margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+    .button-list {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+
 .button-item:not(:last-child){
     margin-right: 8px;
 }
 
-.button-item:nth-last-child(-n + 2) {
-    margin-top: 15px;
+@media screen and (max-width: 767px) {
+    .button-item:nth-last-child(-n + 2) {
+        margin-top: 15px;
+    }
 }
 
 .link-button {

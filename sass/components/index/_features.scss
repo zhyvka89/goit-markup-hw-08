@@ -21,6 +21,17 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .features {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .features-item {
+        width: 270px;
+    }
+}
+
 
 .features-icon {
     display: flex;

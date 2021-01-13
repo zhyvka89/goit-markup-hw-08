@@ -10,6 +10,13 @@
     text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+    .page-hero {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
 .hero-title {
     @include text-size (900, 26px, 1.6, 0.06em);
     margin: 0;
