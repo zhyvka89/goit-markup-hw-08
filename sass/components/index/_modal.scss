@@ -7,6 +7,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
     visibility: visible;
+    overflow-y: scroll;
     transition: opacity 250ms $timing-function;
 }
 
@@ -34,6 +35,13 @@
     transition: transform 250ms $timing-function;
 }
 
+@media screen and (min-width: 1200px) {
+    .modal {
+        width: 530px;
+        height: 580px;
+    }
+}
+
 .btn-modal {
     position: absolute;
     top: 8px;
@@ -50,7 +58,8 @@
     border-radius: 50%;
     transition: color 250ms $timing-function;
 
-    &:hover {
+    &:hover,
+    &:focus {
         color: $accent-color;
     }
 }

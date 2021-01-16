@@ -1,4 +1,5 @@
 @media screen and (max-width: 767px) {
+    
     .project-element:not(:last-child) {
         margin-bottom: 30px;
     }
@@ -17,6 +18,32 @@
     }
 }
 
+// @media screen and (min-width: 768px) and (max-width: 1199px) {
+//     .projrcts-list {
+//         margin: -15px;
+//     }
+
+//     .project-element {
+//         margin: 15px;
+//     }
+// }
+
+@media screen and (min-width: 1200px) {
+    .project-element {
+        width: calc((100% - 3 * 30px) / 3);
+        // margin-right: 30px;
+        // margin-bottom: 30px;
+        
+    }
+    
+    // .project-element:nth-child(3n) {
+    //     margin-right: 0;
+    // }
+    
+    // .project-element:nth-last-child(-n + 3) {
+    //     margin-bottom: 0;
+    // }
+}
 .project-link {
     display: block;
 

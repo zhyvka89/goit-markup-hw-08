@@ -16,11 +16,26 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .portfolio {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
+    .button-list {
+        margin-bottom: 50px;
+    }
+}
+
 .button-item:not(:last-child){
     margin-right: 8px;
 }
 
 @media screen and (max-width: 767px) {
+    .portfolio {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .button-item:nth-last-child(-n + 2) {
         margin-top: 15px;
     }
