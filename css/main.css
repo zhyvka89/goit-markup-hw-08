@@ -166,6 +166,7 @@ img {
   left: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 2;
 }
 
 .nav-menu.is-open {
