@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    padding: 93px 15px;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -17,35 +18,28 @@
     pointer-events: none;
 }
 
-.backdrop.is-hidden .modal {
-    transform: translate( -50%, -50%) scale(0.9);
-}
+// .backdrop.is-hidden .modal {
+//     transform: translate( -50%, -50%) scale(0.9);
+// }
 
 .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    width: 450px;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%) scale(1);
+    // width: 450px;
     height: 609px;
     padding: 40px;
     background-color: $white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: $border-radius;
-    transition: transform 250ms $timing-function;
-}
-
-@media screen and (min-width: 1200px) {
-    .modal {
-        width: 530px;
-        height: 580px;
-    }
+    // transition: transform 250ms $timing-function;
 }
 
 .btn-modal {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 101px;
+    right: 23px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,10 +58,10 @@
     }
 }
 
-.button-icon {
-   width: 100%;
-   height: 100%;
-}
+// .button-icon {
+//    width: 100%;
+//    height: 100%;
+// }
 
 .btn-icon {
     fill: currentColor;
@@ -154,6 +148,7 @@
     top: 4px;
     left: 0;
     display: inline-block;
+    // margin-right: 8px;
     width: 16px;
     height: 15px;
     background-color: $white-color;
@@ -180,5 +175,33 @@
 
     &:hover {
         background: $secondary-accent-color;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 450px;
+    transition: transform 250ms $timing-function;
+    }
+
+    .backdrop.is-hidden .modal {
+    transform: translate( -50%, -50%) scale(0.9);
+    }
+
+    .btn-modal {
+        top: 8px;
+        right: 8px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .modal {
+        top: 50%;
+        width: 530px;
+        height: 580px;
     }
 }
