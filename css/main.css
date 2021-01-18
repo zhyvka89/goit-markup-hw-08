@@ -166,7 +166,6 @@ img {
 
 .nav-menu {
   background-color: #fff;
-  z-index: 2;
 }
 
 @media screen and (max-width: 767px) {
@@ -178,6 +177,7 @@ img {
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
+    z-index: 2;
   }
 }
 

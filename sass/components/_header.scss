@@ -57,10 +57,11 @@
         width: 100%;
         padding-top: 60px;
         padding-bottom: 60px;
+        z-index: 2;
     }
     
     background-color: $white-color;
-    z-index: 2;
+    
 
     &.is-open {
         display: block;
