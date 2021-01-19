@@ -111,7 +111,29 @@
                 <ul class="works-list">
                     <li class="work-item">
                         <div class="work thumb">
-                            <img src="./images/indeximg/img.jpg" alt="фото1" width="370">
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./images/index/desktop/desk-app.webp 1x,
+                                        ./images/index/desktop/desk-app@2x.webp 2x,
+                                        ./images/index/desktop/desk-app@3x.webp 3x
+                                    "
+                                    media="(min-width: 1200px)"
+                                    type="image/webp"
+                                >
+                                <source
+                                    srcset="
+                                        ./images/index/desktop/desk-app.jpg 1x,
+                                        ./images/index/desktop/desk-app@2x.jpg 2x,
+                                        ./images/index/desktop/desk-app@3x.jpg 3x
+                                    "
+                                    media="(min-width: 1200px)"
+                                >
+                                <img
+                                src="./images/index/desktop/desk-app.jpg"
+                                alt="фото1"
+                                >
+                            </picture>
                             <div class="work-meta">
                                 <p>Десктопные приложения</p>
                             </div>
@@ -119,7 +141,29 @@
                     </li>
                     <li class="work-item">
                         <div class="work thumb">
-                            <img src="./images/indeximg/img1.jpg" alt="фото2" width="370">
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./images/index/desktop/mob-app.webp 1x,
+                                        ./images/index/desktop/mob-app@2x.webp 2x,
+                                        ./images/index/desktop/mob-app@3x.webp 3x
+                                    "
+                                    media="(min-width: 1200px)"
+                                    type="image/webp"
+                                >
+                                <source
+                                    srcset="
+                                        ./images/index/desktop/mob-app.jpg 1x,
+                                        ./images/index/desktop/mob-app@2x.jpg 2x,
+                                        ./images/index/desktop/mob-app@3x.jpg 3x
+                                    "
+                                    media="(min-width: 1200px)"
+                                >
+                                <img
+                                src="./images/index/desktop/mob-app.jpg"
+                                alt="фото2"
+                                >
+                            </picture>
                             <div class="work-meta">
                                 <p>Мобильные приложения</p>
                             </div>
@@ -127,7 +171,29 @@
                     </li>
                     <li class="work-item">
                         <div class="work thumb">
-                            <img src="./images/indeximg/img2.jpg" alt="фото3" width="370">
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./images/index/desktop/designe.webp 1x,
+                                        ./images/index/desktop/designe@2x.webp 2x,
+                                        ./images/index/desktop/designe@3x.webp 3x
+                                    "
+                                    media="(min-width: 1200px)"
+                                    type="image/webp"
+                                >
+                                <source
+                                    srcset="
+                                        ./images/index/desktop/designe.jpg 1x,
+                                        ./images/index/desktop/designe@2x.jpg 2x,
+                                        ./images/index/desktop/designe@3x.jpg 3x
+                                    "
+                                    media="(min-width: 1200px)"
+                                >
+                                <img
+                                src="./images/index/desktop/designe.jpg"
+                                alt="фото3"
+                                >
+                            </picture>
                             <div class="work-meta">
                                 <p>Дизайнерские решения</p>
                             </div>
@@ -141,7 +207,63 @@
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-item">
-                        <img src="./images/indeximg/igor.jpg" alt="Игорь Демьяненко" width="270">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/index/desktop/igor.webp 1x,
+                                    ./images/index/desktop/igor@2x.webp 2x,
+                                    ./images/index/desktop/igor@3x.webp 3x
+                                "
+                                media="(min-width: 1200px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/igor.webp 1x,
+                                    ./images/index/tablet/igor@2x.webp 2x,
+                                    ./images/index/tablet/igor@3x.webp 3x
+                                "
+                                media="(min-width: 768px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/igor.webp 1x,
+                                    ./images/index/mobile/igor@2x.webp 2x,
+                                    ./images/index/mobile/igor@3x.webp 3x
+                                "
+                                media="(max-width: 767px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/desktop/igor.jpg 1x,
+                                    ./images/index/desktop/igor@2x.jpg 2x,
+                                    ./images/index/desktop/igor@3x.jpg 3x
+                                "
+                                media="(min-width: 1200px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/igor.jpg 1x,
+                                    ./images/index/tablet/igor@2x.jpg 2x,
+                                    ./images/index/tablet/igor@3x.jpg 3x
+                                "
+                                media="(min-width: 768px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/igor.jpg 1x,
+                                    ./images/index/mobile/igor@2x.jpg 2x,
+                                    ./images/index/mobile/igor@3x.jpg 3x
+                                "
+                                media="(max-width: 767px)"
+                            >
+                            <img
+                                src="./images/index/desktop/igor.jpg"
+                                alt="Игорь Демьяненко"
+                            >
+                        </picture>
                         <div class="team-name">
                             <h3>Игорь Демьяненко</h3>
                             <p>Product Designer</p>
@@ -178,7 +300,63 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/indeximg/olga.jpg" alt="Ольга Репина" width="270">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/index/desktop/olga.webp 1x,
+                                    ./images/index/desktop/olga@2x.webp 2x,
+                                    ./images/index/desktop/olga@3x.webp 3x
+                                "
+                                media="(min-width: 1200px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/olga.webp 1x,
+                                    ./images/index/tablet/olga@2x.webp 2x,
+                                    ./images/index/tablet/olga@3x.webp 3x
+                                "
+                                media="(min-width: 768px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/olga.webp 1x,
+                                    ./images/index/mobile/olga@2x.webp 2x,
+                                    ./images/index/mobile/olga@3x.webp 3x
+                                "
+                                media="(max-width: 767px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/desktop/olga.jpg 1x,
+                                    ./images/index/desktop/olga@2x.jpg 2x,
+                                    ./images/index/desktop/olga@3x.jpg 3x
+                                "
+                                media="(min-width: 1200px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/olga.jpg 1x,
+                                    ./images/index/tablet/olga@2x.jpg 2x,
+                                    ./images/index/tablet/olga@3x.jpg 3x
+                                "
+                                media="(min-width: 768px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/olga.jpg 1x,
+                                    ./images/index/mobile/olga@2x.jpg 2x,
+                                    ./images/index/mobile/olga@3x.jpg 3x
+                                "
+                                media="(max-width: 767px)"
+                            >
+                            <img
+                                src="./images/index/desktop/olga.jpg"
+                                alt="Ольга Репина"
+                            >
+                        </picture>
                         <div class="team-name">
                             <h3>Ольга Репина</h3>
                             <p>Frontend Developer</p>
@@ -215,7 +393,63 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/indeximg/nikolay.jpg" alt="Николай Тарасов" width="270">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/index/desktop/nikolay.webp 1x,
+                                    ./images/index/desktop/nikolay@2x.webp 2x,
+                                    ./images/index/desktop/nikolay@3x.webp 3x
+                                "
+                                media="(min-width: 1200px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/nikolay.webp 1x,
+                                    ./images/index/tablet/nikolay@2x.webp 2x,
+                                    ./images/index/tablet/nikolay@3x.webp 3x
+                                "
+                                media="(min-width: 768px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/nikolay.webp 1x,
+                                    ./images/index/mobile/nikolay@2x.webp 2x,
+                                    ./images/index/mobile/nikolay@3x.webp 3x
+                                "
+                                media="(max-width: 767px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/desktop/nikolay.jpg 1x,
+                                    ./images/index/desktop/nikolay@2x.jpg 2x,
+                                    ./images/index/desktop/nikolay@3x.jpg 3x
+                                "
+                                media="(min-width: 1200px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/nikolay.jpg 1x,
+                                    ./images/index/tablet/nikolay@2x.jpg 2x,
+                                    ./images/index/tablet/nikolay@3x.jpg 3x
+                                "
+                                media="(min-width: 768px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/nikolay.jpg 1x,
+                                    ./images/index/mobile/nikolay@2x.jpg 2x,
+                                    ./images/index/mobile/nikolay@3x.jpg 3x
+                                "
+                                media="(max-width: 767px)"
+                            >
+                            <img
+                                src="./images/index/desktop/nikolay.jpg"
+                                alt="Николай Тарасов"
+                            >
+                        </picture>
                         <div class="team-name">
                             <h3>Николай Тарасов</h3>
                             <p>Marketing</p>
@@ -252,7 +486,63 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/indeximg/mihail.jpg" alt="Михаил Ермаков" width="270">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/index/desktop/mihail.webp 1x,
+                                    ./images/index/desktop/mihail@2x.webp 2x,
+                                    ./images/index/desktop/mihail@3x.webp 3x
+                                "
+                                media="(min-width: 1200px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/mihail.webp 1x,
+                                    ./images/index/tablet/mihail@2x.webp 2x,
+                                    ./images/index/tablet/mihail@3x.webp 3x
+                                "
+                                media="(min-width: 768px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/mihail.webp 1x,
+                                    ./images/index/mobile/mihail@2x.webp 2x,
+                                    ./images/index/mobile/mihail@3x.webp 3x
+                                "
+                                media="(max-width: 767px)"
+                                type="image/webp"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/desktop/mihail.jpg 1x,
+                                    ./images/index/desktop/mihail@2x.jpg 2x,
+                                    ./images/index/desktop/mihail@3x.jpg 3x
+                                "
+                                media="(min-width: 1200px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/tablet/mihail.jpg 1x,
+                                    ./images/index/tablet/mihail@2x.jpg 2x,
+                                    ./images/index/tablet/mihail@3x.jpg 3x
+                                "
+                                media="(min-width: 768px)"
+                            >
+                            <source
+                                srcset="
+                                    ./images/index/mobile/mihail.jpg 1x,
+                                    ./images/index/mobile/mihail@2x.jpg 2x,
+                                    ./images/index/mobile/mihail@3x.jpg 3x
+                                "
+                                media="(max-width: 767px)"
+                            >
+                            <img
+                                src="./images/index/desktop/mihail.jpg"
+                                alt="Михаил Ермаков"
+                            >
+                        </picture>
                         <div class="team-name">
                             <h3>Михаил Ермаков</h3>
                             <p>UI Designer</p>
