@@ -5,10 +5,6 @@
 
 .team-title {
     @extend %section-title-mobile;
-    // @media screen and (min-width: 1200px) {
-    //     @include text-size (700, 36px, 1.17, 0.03em);
-    //     margin-bottom: 50px;
-    // }
 }
 
 .team-item {

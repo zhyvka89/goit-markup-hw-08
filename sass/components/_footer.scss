@@ -36,7 +36,12 @@
     margin-top: 9px;
 }
 
-
+@media screen and (max-width: 767px) {
+    .footer-links {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
 
 .footer-links p {
     @include text-size (700, 14px, 1.1, 0.03em);
@@ -44,13 +49,6 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     color: $white-color;
-}
-
-@media screen and (max-width: 767px) {
-    .footer-links {
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
 }
 
 .footer-list {
@@ -80,13 +78,6 @@
 .footer-icon {
     fill: currentColor;
 }
-
-// @media screen and (min-width: 768px) {
-//     .footer-form {
-//         display: flex;
-//         flex-direction: column;
-//     }
-// }
 
 .footer-form p {
     @include text-size (700, 14px, 1.1, 0.03em);

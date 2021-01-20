@@ -4,18 +4,11 @@
 
 .clients-title {
     @extend %section-title-mobile;
-    // @media screen and (min-width: 1200px) {
-    //     @include text-size (700, 36px, 1.17, 0.03em);
-    //     margin-bottom: 50px;
-    // }
 }
-
-
 
 .clients-list {
     display: flex;
     flex-wrap: wrap;
-    // margin: -15px;
     @media screen and (max-width: 1199px) {
         margin: -15px;
     }
