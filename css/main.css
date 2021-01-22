@@ -62,7 +62,7 @@ ul {
 
 img {
   display: block;
-  min-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -1198,7 +1198,7 @@ img {
 }
 
 .project-item {
-  padding: 20px 24px;
+  padding: 20px 15px;
   border: 1px solid #EEEEEE;
 }
 
