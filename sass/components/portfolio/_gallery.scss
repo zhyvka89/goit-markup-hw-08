@@ -26,6 +26,7 @@
 .link-button {
     @include text-size (500, 16px, 1.6, 0.03em);
     padding: 6px 22px;
+    background-color: $secondary-background;
     border: 0px;
     border-radius: $border-radius;
     font-family: inherit;

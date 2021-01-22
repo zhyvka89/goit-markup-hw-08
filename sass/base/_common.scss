@@ -2,6 +2,11 @@ body {
     background: $white-color;
     color: $primary-text-color;
     font-family: $primary-font;
+    padding-top: 60px;
+
+    @media screen and (min-width:768px) {
+        padding-top: 80px;
+    }
 }
 
 a {
